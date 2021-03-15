@@ -23,28 +23,28 @@
       <header>
         <div class="logo">
           <i class="fas fa-map-marked-alt fa-2x"></i>
-          <p>GeoPortafolio</p>
+          <p class="geoportafolio">GeoPortafolio</p>
         </div>
         <nav>
           <ul>
-            <li><a href="#" class="links">link1</a></li>
-            <li><a href="#" class="links">link1</a></li>
-            <li><a href="#" class="links">link1</a></li>
-            <li><a href="#" class="links">link1</a></li>
+            <li><a href="#introduccion" class="links">Inicio</a></li>
+            <li><a href="#acercademi" class="links">Sobre mí</a></li>
+            <li><a href="#seccion_servicios" class="links">Servicios</a></li>
+            <li><a href="#portafolio" class="links">Proyectos</a></li>
+            <li><a href="#experiencialaboral" class="links">Experiencia</a></li>
           </ul>
         </nav>
       </header>
-      <div class="introduccion">
+      <div class="introduccion" id="introduccion">
         <section class="introduccion__texto">
           <div class="intro_contenidotexto">
             <h2 class="introduccion__h2">Hola, soy</h2>
             <h1 class="introduccion__h1">Jorge Zevallos R.</h1>
             <h3 class="introduccion__h3">Geógrafo & Geomático</h3>
             <p class="introduccion__p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              voluptatum ut recusandae dolorum, quasi tempora a non dicta magnam
-              fugiat expedita placeat repudiandae repellendus. Saepe, natus
-              facere! Odio, incidunt dolore.
+              Apasionado por los Sistemas de Información Geográfica, y las
+              geotecnologías. Interesado en la automatización de geoprocesos y
+              el Web Mapping.
             </p>
             <div class="contenedor__iconos">
               <a
@@ -84,7 +84,7 @@
           </figure>
         </section>
       </div>
-      <section class="acercademi">
+      <section class="acercademi" id="acercademi">
         <div class="acercademi__imagen">
           <figure class="acercademi__contenedor_imagen">
             <img
@@ -99,10 +99,11 @@
             <h3 class="acercademi__h3">Acerca de mí</h3>
             <h2 class="acercademi__h2">Porqué contratarme</h2>
             <p class="introduccion__p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              voluptatum ut recusandae dolorum, quasi tempora a non dicta magnam
-              fugiat expedita placeat repudiandae repellendus. Saepe, natus
-              facere! Odio, incidunt dolore.
+              Cuento con formación y experiencia en Sistemas de Información
+              Geográfica, Base de datos espacial y Publicación
+              web. Tengo facilidad para el trabajo en un equipo
+              interdisciplinario, disposición de
+              aprender y asumir nuevos retos.
             </p>
             <div class="conocimiento">
               <p class="conocimiento__parrafo">HTML</p>
@@ -127,7 +128,7 @@
           </div>
         </div>
       </section>
-      <section class="seccion_servicios">
+      <section class="seccion_servicios" id="seccion_servicios">
         <div class="servicios_cabecera">
           <h3 class="servicios__h3">Servicios</h3>
           <h2 class="servicios__h2">Servicios ofrecidos</h2>
@@ -203,7 +204,7 @@
           </div>
         </section>
       </section>
-      <section class="portafolio">
+      <section class="portafolio" id="portafolio">
         <div class="portafolio_cabecera">
           <h3 class="servicios__h3">Portafolio</h3>
           <h2 class="servicios__h2">Últimos proyectos</h2>
@@ -211,40 +212,52 @@
         <section class="portafolio__cards">
           <div class="card__portafolio">
             <figure class="portafolio__figure">
-              <img
-                class="portafolio__img"
-                src="http://placehold.it/300x400"
-                alt="proyecto"
-              />
+              <a
+                href="https://geozevallos.github.io/sidebar-responsive/"
+                target="__blank"
+              >
+                <img
+                  class="portafolio__img"
+                  src="./img/sidebar_responsive.PNG"
+                  alt="proyecto"
+                />
+              </a>
             </figure>
-            <h4 class="titulo__card">Algo</h4>
-            <p class="introduccion__p">Ducimus, molestiae.</p>
+            <h4 class="titulo__card">Sidebar responsive</h4>
+            <p class="introduccion__p">Proyecto elaborado usando CSS y HTML.</p>
           </div>
           <div class="card__portafolio">
             <figure class="portafolio__figure">
-              <img
-                class="portafolio__img"
-                src="http://placehold.it/300x400"
-                alt="proyecto"
-              />
+              <a
+                href="https://geozevallos.github.io/maquetado_pagweb/"
+                target="__blank"
+              >
+                <img
+                  class="portafolio__img"
+                  src="./img/Captura.PNG"
+                  alt="proyecto"
+                />
+              </a>
             </figure>
-            <h4 class="titulo__card">Algo</h4>
-            <p class="introduccion__p">Ducimus, molestiae.</p>
+            <h4 class="titulo__card">Maquetado página web</h4>
+            <p class="introduccion__p">Maquetado simple con CSS y HTML.</p>
           </div>
           <div class="card__portafolio">
             <figure class="portafolio__figure">
-              <img
-                class="portafolio__img"
-                src="http://placehold.it/300x400"
-                alt="proyecto"
-              />
+              <a href="https://geozevallos.github.io/prueba/" target="__blank">
+                <img
+                  class="portafolio__img"
+                  src="./img/ProyectoLeaflet.PNG"
+                  alt="proyecto"
+                />
+              </a>
             </figure>
-            <h4 class="titulo__card">Algo</h4>
-            <p class="introduccion__p">Ducimus, molestiae.</p>
+            <h4 class="titulo__card">Visor Web</h4>
+            <p class="introduccion__p">Web Mapping con Leaflet</p>
           </div>
         </section>
       </section>
-      <section class="experiencialaboral">
+      <section class="experiencialaboral" id="experiencialaboral">
         <div class="servicios_cabecera">
           <h3 class="servicios__h3">Experiencia</h3>
           <h2 class="servicios__h2">Experiencia laboral</h2>
@@ -253,26 +266,29 @@
           <section class="experiencia__n">
             <div class="experiencia__descripcion">
               <p class="introduccion__p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-                voluptate aliquid animi a officiis dolores, commodi possimus
-                amet repellendus accusamus provident sunt laudantium culpa et
-                quos facere autem obcaecati vero.
+                Encargado de la creación y actualización de cursos de ESRI para
+                las capacitaciones presenciales de y virtuales. Desarrollo e
+                implementación de soluciones integradas GIS. Apoyo en la
+                implementación de soluciones GIS para el sector
+                Telecomunicaciones y Seguros.
               </p>
             </div>
             <div class="experiencia__espacio">
               <p class="experiencia__p">1</p>
             </div>
             <div class="experiencia__titulo">
-              <h3 class="experiencia__h3">Título</h3>
-              <h4 class="experiencia__h4">MAYUC</h4>
-              <p class="introduccion__p">Fecha</p>
+              <h3 class="experiencia__h3">Especialista GIS</h3>
+              <h4 class="experiencia__h4">TELEMÁTICA S.A.</h4>
+              <p class="introduccion__p">Nov. 2019 - Actualidad</p>
             </div>
           </section>
           <section class="experiencia__n">
             <div class="experiencia__titulo">
-              <h3 class="experiencia__h3">Título</h3>
-              <h4 class="experiencia__h4">MAYUC</h4>
-              <p class="introduccion__p">Fecha</p>
+              <h3 class="experiencia__h3">
+                Consultor en Sistemas de Información Geográfica
+              </h3>
+              <h4 class="experiencia__h4">INSTITUTO NACIONAL DE SALUD</h4>
+              <p class="introduccion__p">Julio 2016 - Agosto 2019</p>
             </div>
             <div class="experiencia__espacio">
               <p class="experiencia__p">2</p>
@@ -280,29 +296,32 @@
 
             <div class="experiencia__descripcion">
               <p class="introduccion__p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-                voluptate aliquid animi a officiis dolores, commodi possimus
-                amet repellendus accusamus provident sunt laudantium culpa et
-                quos facere autem obcaecati vero.
+                Análisis espacial de de información geográfica para el proyecto
+                “Caracterización de enfermedades febriles agudas en
+                Latinoamerica”. Generación de mapas temáticos de las
+                enfermedades febriles incluidas en el proyecto mediante Qgis.
               </p>
             </div>
           </section>
           <section class="experiencia__n">
             <div class="experiencia__descripcion">
               <p class="introduccion__p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-                voluptate aliquid animi a officiis dolores, commodi possimus
-                amet repellendus accusamus provident sunt laudantium culpa et
-                quos facere autem obcaecati vero.
+                Servicio de asistencia en la georreferenciación de cartas
+                nacionales 1:25000 e imágenes satelitales para el proyecto
+                Qhapaq Ñan. Reproyección de coordenadas UTM de Datum PSAD 56 a
+                WGS84. Georreferenciación de las Cartas Nacionales de la Macro
+                Región Norte.
               </p>
             </div>
             <div class="experiencia__espacio">
               <p class="experiencia__p">3</p>
             </div>
             <div class="experiencia__titulo">
-              <h3 class="experiencia__h3">Título</h3>
-              <h4 class="experiencia__h4">MAYUC</h4>
-              <p class="introduccion__p">Fecha</p>
+              <h3 class="experiencia__h3">
+                Consultor en Sistemas de Información Geográfica
+              </h3>
+              <h4 class="experiencia__h4">Ministerio de Cultura</h4>
+              <p class="introduccion__p">Febrero 2016 - Julio 2016</p>
             </div>
           </section>
         </div>

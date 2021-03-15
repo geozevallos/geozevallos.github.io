@@ -38,7 +38,7 @@ header {
 nav > ul {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
 .links {
@@ -400,6 +400,7 @@ nav > ul {
     flex-direction: column;
     gap: 10px;
     justify-content: flex-start;
+    padding: 10px;
 }
 
 .portafolio__cards{
@@ -413,10 +414,20 @@ nav > ul {
 .portafolio__figure{
     background-color: #0088c9;
     border-radius: 8px;
+    width: 320px;
+    height: 420px;
+    border: 2px solid #0088c9;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portafolio__img{
     padding: 10px;
+    overflow: hidden;
+    width: auto;
+    height: 100%;
 }
 
 .experiencia__contenedor{
@@ -501,4 +512,57 @@ footer {
 
 .footer__h2 {
   color: #0088c9;
+}
+
+
+
+@media (max-width: 719px){
+  header {
+    padding: 0 2px;
+    justify-content: center;
+  }
+
+  .geoportafolio{
+    font-size: 0px;
+  }
+
+  nav > ul {
+    gap: 7px;
+  }
+
+  .introduccion {
+    flex-direction: column;
+    height: 450px;
+  }
+
+  .contenedor_imagen {
+    width: 150px;
+    height: 150px;
+  }
+
+
+  .acercademi {
+    flex-direction: column;
+    padding-top: 10px;
+    height: 700px;
+  }
+  .acercademi_contenidotexto {
+    padding: 20px 30px 20px 50px;
+  }
+
+  .acercademi__contenedor_imagen {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .fotografia2 {
+    height: 250px;
+    width: auto;
+  }
+
+  .experiencia__contenedor{
+    padding: 20px 20px;
+  }
+
+
 }
