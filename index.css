@@ -16,7 +16,7 @@ body {
 
 .contenedor__principal {
   background-color: #ffffff;
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -432,6 +432,10 @@ nav > ul {
 
 .experiencia__contenedor{
     padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .experiencia__n{
@@ -485,6 +489,7 @@ nav > ul {
     justify-content: center;
     align-items: center;
     padding: 15px;
+    text-align: center;
 }
 
 .experiencia__h4{
@@ -516,7 +521,7 @@ footer {
 
 
 
-@media (max-width: 719px){
+@media (max-width: 768px){
   header {
     padding: 0 2px;
     justify-content: center;
@@ -561,8 +566,16 @@ footer {
   }
 
   .experiencia__contenedor{
+    width: 100%;
     padding: 20px 20px;
+    align-content: center;
   }
+
+  .experiencia__titulo{
+    gap: 8px;
+    padding: 10px;
+¿
+}
 
 
 }
